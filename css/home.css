@@ -1,0 +1,518 @@
+			@media (min-width:1469px ){
+				.one{
+	 				width: 100%;
+	 				height: 699px;
+					overflow: hidden;
+					position: relative;
+	 			}
+	 			.san li img{
+	 				width: 100%;
+	 			}
+	 			.one ul{
+	 				height: 100%;
+	 				width: 100%;
+	 				
+	 			}
+	        	.one ul li{
+	        		width: 100%;
+	        		height: 100%;
+	        	}
+	        	ol {
+	        		width: 100px;
+	        		height: 25px;
+	        		position: absolute;
+	        		bottom: 10px;
+	        		left: 50%;
+	        		margin-left: -50px;
+	        	}
+	        	ol li{
+	        		width: 20px;
+	        		height: 20px;
+	        		background: white;
+	        		margin-right: 5px;
+	        		border-radius: 50%;
+	        		float: left;
+	        	}
+	        	ol .curren{
+	        		width: 20px;
+	        		height: 20px;
+	        		background: #6cb6b6;
+	        	}
+	        	.bar{
+	        		position: absolute;
+	        		width: 100%;
+	        		height: 120px;
+	        		top: 80px;
+	        	}
+	        	.left{
+        		height: 120px;
+        		width: 28%;
+        		float: left;
+        		background: rgba(225, 225, 225, 0.6);
+				line-height: 120px;
+				padding: 0px 10px;
+        	}
+        	
+        		.left .threen{
+				color: black;
+				font-size: 50px;
+				font-family: "MV Boli";
+				text-decoration: none;
+				
+        		}
+        		.right{
+        		width: 57%;
+				float: right;
+				height: 120px;
+				background: rgba(225, 225, 225, 0.6);
+				
+        		}
+
+        		.for li a{
+        			line-height: 120px;
+        			font-size: 16px;
+        			margin-left: 1px;
+					color:  black;
+        		}
+        		.for li a:hover{
+        			color: skyblue;
+        			background: none;
+        		}
+        		
+			}
+ 			@media (min-width:840px ) and (max-width:1468px){
+				.one{
+	 				width: 100%;
+	 				height: 400px;
+					overflow: hidden;
+					position: relative;
+	 			}
+	 			.san li img{
+	 				width: 100%;
+	 			}
+	 			.one ul{
+	 				height: 100%;
+	 				width: 100%;
+	 				
+	 			}
+	        	.one ul li{
+	        		width: 100%;
+	        		height: 100%;
+	        	}
+	        	ol {
+	        		width: 100px;
+	        		height: 25px;
+	        		position: absolute;
+	        		bottom: 10px;
+	        		left: 50%;
+	        		margin-left: -50px;
+	        	}
+	        	ol li{
+	        		width: 20px;
+	        		height: 20px;
+	        		background: white;
+	        		margin-right: 5px;
+	        		border-radius: 50%;
+	        		float: left;
+	        	}
+	        	ol .curren{
+	        		width: 20px;
+	        		height: 20px;
+	        		background: #6cb6b6;
+	        	}
+	        	.bar{
+	        		position: absolute;
+	        		width: 100%;
+	        		height: 120px;
+	        		top: 80px;
+	        	}
+	        	.left{
+        		height: 120px;
+        		width: 28%;
+        		float: left;
+        		background: rgba(225, 225, 225, 0.6);
+				line-height: 120px;
+				padding: 0px 10px;
+        	}
+        	
+        		.left .threen{
+				color: black;
+				font-size: 50px;
+				font-family: "MV Boli";
+				text-decoration: none;
+				
+        		}
+        		.right{
+        		width: 57%;
+				float: right;
+				height: 200px;
+				background: rgba(225, 225, 225, 0.6);
+				
+        		}
+
+        		.for li a{
+        			line-height: 120px;
+        			font-size: 16px;
+        			margin-left: 1px;
+					color:  black;
+
+        		}
+        		.for li a:hover{
+        			color: skyblue;
+        			background: none;
+        		}
+        		
+			}
+			@media (max-width:839px ){
+				.one{
+	 				width: 100%;
+	 				height: 200px;
+					overflow: hidden;
+					position: relative;
+	 			}
+	 			.san li img{
+	 				width: 100%;
+	 				min-height: 200px;
+	 			}
+	 			.one ul{
+	 				height: 100%;
+	 				width: 100%;
+	 				
+	 			}
+	        	.one ul li{
+	        		width: 100%;
+	        		height: 100%;
+	        	}
+	        	ol {
+	        		width: 100px;
+	        		height: 25px;
+	        		
+	        		position: absolute;
+	        		bottom: 10px;
+	        		left: 50%;
+	        		margin-left: -50px;
+	        	}
+	        	ol li{
+	        		width: 20px;
+	        		height: 20px;
+	        		background: white;
+	        		margin-right: 5px;
+	        		border-radius: 50%;
+	        		float: left;
+	        	}
+	        	ol .curren{
+	        		width: 20px;
+	        		height: 20px;
+	        		background: #6cb6b6;
+	        	}
+	        	.bar{
+	        		position: absolute;
+	        		width: 100%;
+	        		height: 120px;
+	        		
+	        		top: 80px;
+	        	}
+	        	.left{
+        		height: 100px;
+        		width: 28%;
+        		float: left;
+        		background: rgba(225, 225, 225, 0.6);
+				line-height: 120px;
+				padding: 0px 10px;
+        	}
+        	
+        		.left .threen{
+				color: black;
+				font-size: 30px;
+				font-family: "MV Boli";
+				text-decoration: none;
+				
+        		}
+        		.right{
+        		width: 57%;
+				float: right;
+				height: 50px;
+				background: rgba(225, 225, 225, 0.6);
+				
+        		}
+
+        		.for li a{
+        			line-height: 120px;
+        			font-size: 16px;
+        			margin-left: 1px;
+					color:  black;
+					display: none;
+        		}
+        		.for li a:hover{
+        			color: skyblue;
+        			background: none;
+        		}
+        		
+			}
+
+			.contenr{
+				height:200px;
+				background: #6cb6b6;
+				padding-top: 50px;
+			}
+			.contenr p{
+				width: 60%;
+				height:100px;
+				color: white;
+			}
+			.contenr p span{
+				text-align: center;
+			}
+			.diy{
+				margin-left: 50px;
+			}
+			.leb{
+				width: 100%;
+				height: 300px;
+				
+			}
+			.leb ul{
+				width: 111%;
+
+			}
+			.leb ul li{
+				width: 30%;
+				height: 300px;
+				float: left;
+			}
+			.leb ul li img{
+				width: 100%;
+			}
+		.rul{
+			height: 1200px;
+			background: #fafafa;
+			padding: 50px 0px;
+		}
+		.con{
+			height: 1100px;
+			width: 80%;
+		}
+		.but{
+			border-bottom: 2px solid #6cb6b6;
+			width: 85px;
+		}
+		.sray{
+			height: 500px;
+			margin-top: 30px;
+		}
+		.sray .lef{
+			width: 50%;
+			height: 500px;
+		
+		}
+		.sray .lef a{
+			text-decoration: none;
+			color: skyblue;
+			font-size:18px;
+		}
+		.sray .lef a:hover{
+			color: black;
+			cursor: pointer;
+		}
+		.sray .lef .dan{
+			font-size: 17px;
+		}
+		.sray .rig{
+			width: 45%;
+			height: 500px;
+			
+		}
+		.sray .rig li{
+			height: 160px;
+			margin-bottom: 10px;
+			position: relative;
+		}
+		.sray .rig li img{
+			width: 100%;
+		}
+		.sray .rig li p{
+			width: 100%;
+			height: 187px;
+			background: rgba(0,0,0,0.4);
+			position: absolute;
+			bottom: 0px;
+			top: 0px;
+			text-align: center;
+			font-size: 30px;
+			line-height: 195px;
+			color: white;
+			display: none;
+		}
+		.you{
+			height: 400px;
+			
+			margin-top: 100px;
+		}
+		 .hut{
+			font-size: 40px;
+			border-bottom: 2px solid #6cb6b6;
+			width: 207px;
+			
+		}
+		.you .mand{
+			height: 200px;
+			
+			margin-top: 20px;
+		}
+		.you ul{
+			width: 107%;
+		}
+		.you ul li{
+			width: 21%;
+			height: 200px;
+			margin-right: 3%;
+			float: left;
+			
+		}
+		.you .mand ul li img{
+			width: 98%;
+			transition: all 6s;
+		}
+		.you .mand ul li:hover{
+			transform: rotate(15deg);
+			cursor: pointer;
+		}
+		.oli{
+			height: 100px;
+			
+			margin-top: 21px;
+		}
+		.oli .fat{
+			width: 107%;
+		}
+		.oli .fat li{
+			width: 21%;
+			height: 100px;
+			
+			margin-right: 3%;
+			float: left;
+		}
+		.oli .fat li h4{
+			font-size: 20px;
+			margin-bottom: 20px;
+		}
+		.oli .fat li h5{
+			font-size: 16px;
+		}
+		.gre{
+			height: 400px;
+			background: #444444;
+			padding-top: 50px;
+		}
+		.gre .hus{
+			width: 75%;
+			
+			height: 250px;
+
+		}
+		.hus .goo{
+			font-size: 40px;
+			color: white;
+		}
+		.hus .had{
+			height: 172px;
+			
+			margin-top: 22px;
+		}
+		.hus .had .keyne{
+			width: 82%;
+			height: 100px;
+			margin: 0px auto;
+		}
+		.hus .had .wordsab{
+			width: 139%;
+		}
+		.hus .had .wordsab span{
+			width: 108px;
+			height: 108px;
+			margin-right: 12.5%;
+			float: left;
+		}
+		.hus .had .wordsab .licon1{
+			background-position: -17px -15px;
+		}
+		.hus .had .wordsab .licon2{
+			background-position: -131px -16px;
+		}
+		.hus .had .wordsab .licon3{
+			background-position: -248px -18px;
+		}
+		.hus .had .wordsab .licon4{
+			background-position: -365px -16px;
+		}
+		.hus .had .keyleb{
+			width: 95%;
+			height: 50px;
+			margin: 0px auto;
+		}
+		.hus .had .wordsut{
+			width: 107%;
+		}
+		.hus .had .wordsut li{
+			width: 21%;
+			height: 50px;
+			margin-right: 3%;
+			float: left;
+			
+			font-size: 16px;
+			text-align: center;
+			line-height: 50px;
+			color: white;
+		}
+		.foot{
+        			width: 100%;
+					height: 200px;
+					background: #6cb6b6;
+					position: relative;
+					bottom: 0px;
+					padding-top: 50px;
+        		}
+        		.foot .footer{
+        			width: 60%;
+        			height: 100px;
+        			
+        		}
+        		.texts{
+        		color: white;
+        		font-size: 16px;
+        		margin-top: 18px;
+        	}
+        	.ints{
+        		text-decoration: none;
+        		color: black;
+        	}
+        	.ints:hover{
+        		color: white;
+        	}
+        	.foot .span1{
+        		width: 29%;
+        		
+        		height: 50px;
+        	}
+        	.foot .span1 span{
+        		display: inline-block;
+        		width: 32%;
+        		height: 50px;
+        		
+        	}
+        	.foot .span1 .icons1,.icons2,.icons3,.licon1,.licon2,.licon3,.licon4{
+				background: url('../img/img-sprite.png') no-repeat;
+        	}
+        	.foot .span1 .icons1{
+				background-position: -8px -152px;
+        	}
+        	.foot .span1 .icons2{
+        		display: inline-block;
+        		width: 34px;
+        		height: 50px;
+				background-position: -94px -147px;
+        	}
+        	.foot .span1 .icons3{
+				background-position: -121px -152px;
+        	}
+       }

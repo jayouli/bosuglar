@@ -1,0 +1,344 @@
+			.one{
+        		position: relative;
+      			background: url('../img/banner.jpg') no-repeat center top;
+      			background-size: 100%;
+      			min-height: 250px;
+      			padding: 30px 0px;
+      			box-sizing: border-box;
+        	}
+        	@media (max-width: 768px){
+        		.one{
+        			max-height: 150px;
+        		}
+        	}
+        	@media (min-width: 768px){
+        		.two{
+        		
+        		max-height: 120px;
+        		
+        		}
+        		.left{
+        		height: 120px;
+        		width: 28%;
+        		float: left;
+        		background: rgba(225, 225, 225, 0.6);
+				line-height: 120px;
+				padding: 0px 10px;
+        	}
+        	.right{
+        		width: 57%;
+				float: right;
+				height: 120px;
+				background: rgba(225, 225, 225, 0.6);
+				
+        		}
+        		.left .threen{
+				color: black;
+				font-size: 50px;
+				font-family: "MV Boli";
+				text-decoration: none;
+				
+        		}
+        		.for li a{
+        			line-height: 120px;
+        			font-size: 16px;
+        			
+					color:  black;
+        		}
+        		.for li a:hover{
+        			color: skyblue;
+        			background: none;
+        		}
+        		.car{
+				margin-top:  80px;
+				font-size: 200px;
+				font-family: "Dotum";
+				color: black;
+
+        		}
+        		.daner{
+        			width: 74%;
+        			height: 1500px;
+        			
+        			margin: 80px auto;
+        		}
+        		.circles{
+        			height: 600px;
+        		
+        			margin-top: 10px;
+        		}
+        		.cirbig{
+        			width: 64%;
+        			
+        			height: 600px;
+        		}
+        		.cirsmall{
+        			width: 35%;
+        			height: 550px;
+        		
+        		}
+        		.cirbig .leds{
+        			height: 355px;
+        		}
+        		.cirbig .leds span{
+        			display: block;
+        			width: 60%;
+        			height:380px;
+        			margin-top: 10px;
+        		}
+        		.cirbig .leds span img{
+        			width: 98%;
+        			transition: all 2s;
+        		}
+        		.cirbig .leds span img:hover{
+				transform: scale(1.1,1.1);
+				cursor: pointer;
+				}
+        		.cirbig .leds div{
+        			width: 36%;
+        			height: 400px;
+        			
+        		}
+        		.cirbig .leds div p{
+        			line-height: 24px;
+        			margin-top: 0px;
+        			font-size: 16px;
+        			color:#999999;
+        		}
+        		.cirbig .leds .targ{
+        			color: skyblue;
+        		}
+        		.cirbig .leds .targ:hover{
+        			color: black;
+        		}
+        		.cirbig .rul{
+        			height: 200px;
+        			
+        		}
+        		.cirbig .rul p{
+        			color: #999999;
+        		}
+				.cirbig .rul .hiu{
+					line-height: 22px;
+					font-size: 16px;
+					
+				}
+				.cirsmall .lisan{
+					height: 470px;
+					
+					margin-top: 30px;
+				}
+				.cirsmall .lisan ul{
+					width: 100%;
+				}
+				.cirsmall .lisan  div{
+					height: 150px;
+					
+					margin-bottom: 10px;
+				}
+				.cirsmall .lisan .lisan1 .tupit{
+					display: inline-block;
+					width: 50px;
+					height: 50px;
+					font-size: 30px;
+					text-align: center;
+					line-height: 50px;
+					color: white;
+					background: skyblue;
+				}
+				.cirsmall .lisan .lisan1 .hird{
+					width: 80%;
+					height: 150px;
+					color: #999999;
+					font-size: 17px;
+					line-height: 24px;
+				}
+				.cirsmall .lisan .lisan1 .hird .soule{
+					color: skyblue;
+				}
+				.cirsmall .lisan .lisan1 .hird .soule:hover{
+					color: black;
+				}
+				.you{
+			height: 400px;
+			
+			margin-top: 60px;
+		}
+		 .hut{
+			font-size: 30px;
+			
+			
+		}
+		.you .mand{
+			height: 200px;
+			
+			margin-top: 20px;
+		}
+		.you ul{
+			width: 107%;
+		}
+		.you ul li{
+			width: 21%;
+			height: 200px;
+			
+			margin-right: 3%;
+			float: left;
+		}
+		.you ul li img{
+			width: 100%;
+			transition: all 6s;
+		}
+		.you .mand ul li:hover{
+			transform: rotate(15deg);
+			cursor: pointer;
+		}
+		.oli{
+			height: 100px;
+			
+			margin-top: 21px;
+		}
+		.oli .fat{
+			width: 107%;
+		}
+		.oli .fat li{
+			width: 21%;
+			height: 100px;
+			
+			margin-right: 3%;
+			float: left;
+		}
+		.oli .fat li h4{
+			font-size: 20px;
+			margin-bottom: 20px;
+		}
+		.oli .fat li h5{
+			font-size: 16px;
+			color: #999999;
+		}
+		.maurig{
+			height: 400px;
+			
+		}
+		.maurig .maulef{
+			width: 55%;
+			
+			height: 400px;
+		}
+		.maurig .maulef .suber{
+			
+			margin-top: 0px;
+		}
+		.maurig .maulef .supit{
+			line-height: 22px;
+			color: #999999;
+		}
+		.maurig .maulef .supicit{
+			color:skyblue;
+		}
+		.maurig .maulef .supicit:hover{
+			color:black;
+		}
+		.maurig .maurit{
+			width: 40%;
+			height: 400px;
+			
+		}
+		.maurig .maurit img{
+			transition:all 6s;
+		}
+		.maurig .maurit img:hover{
+			transform: scale(1.1,1.1);
+			cursor: pointer;
+		}
+		.foot{
+        			width: 100%;
+					height: 200px;
+					background: #6cb6b6;
+					position: relative;
+					bottom: 0px;
+					padding-top: 50px;
+        		}
+        		.foot .footer{
+        			width: 60%;
+        			height: 100px;
+        			
+        		}
+        		.texts{
+        		color: white;
+        		font-size: 16px;
+        		margin-top: 18px;
+        	}
+        	.ints{
+        		text-decoration: none;
+        		color: black;
+        	}
+        	.ints:hover{
+        		color: white;
+        	}
+        	.foot .span1{
+        		width: 29%;
+        		
+        		height: 50px;
+        	}
+        	.foot .span1 span{
+        		display: inline-block;
+        		width: 32%;
+        		height: 50px;
+        		
+        	}
+        	.foot .span1 .icons1,.icons2,.icons3,.licon1,.licon2,.licon3,.licon4{
+				background: url('../img/img-sprite.png') no-repeat;
+        	}
+        	.foot .span1 .icons1{
+				background-position: -8px -152px;
+        	}
+        	.foot .span1 .icons2{
+        		display: inline-block;
+        		width: 34px;
+        		height: 50px;
+				background-position: -94px -147px;
+        	}
+        	.foot .span1 .icons3{
+				background-position: -121px -152px;
+        	}
+       }
+				
+        	@media (max-width: 800px){
+        		.two{
+        		
+        		max-height: 50px;
+        		
+        		}
+        		.left{
+        		height: 50px;
+        		width: 28%;
+        		float: left;
+        		background: rgba(225, 225, 225, 0.6);
+				line-height: 50px;
+				padding: 0px 5px;
+        	}
+        	.right{
+        		width: 57%;
+				float: right;
+				height: 20px;
+				background: rgba(225, 225, 225, 0.6);
+
+        		}
+        		.left .threen{
+        		display: block;
+        		text-decoration: none;
+				color: black;
+				font-size: 30px;
+				font-family: "MV Boli";
+        		}
+        		.for li a{
+        			display: none;
+
+        		}
+				
+
+        	}
+        	
+        	
+        	
+        	

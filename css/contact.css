@@ -1,0 +1,94 @@
+.one{
+        		position: relative;
+      			background: url('../img/banner.jpg') no-repeat center top;
+      			background-size: 100%;
+      			min-height: 250px;
+      			padding: 30px 0px;
+      			box-sizing: border-box;
+        	}
+        	@media (max-width: 768px){
+        		.one{
+        			max-height: 150px;
+        		}
+        	}
+        	
+        	@media (min-width: 768px){
+        		.two{
+        		
+        		max-height: 120px;
+        		
+        		}
+        		.left{
+        		height: 120px;
+        		width: 28%;
+        		float: left;
+        		background: rgba(225, 225, 225, 0.6);
+				line-height: 120px;
+				padding: 0px 10px;
+        	}
+        	.right{
+        		width: 57%;
+				float: right;
+				height: 120px;
+				background: rgba(225, 225, 225, 0.6);
+				
+        		}
+        		.left .threen{
+				color: black;
+				font-size: 50px;
+				font-family: "MV Boli";
+				text-decoration: none;
+				
+        		}
+        		.for li a{
+        			line-height: 120px;
+        			font-size: 16px;
+        			
+					color:  black;
+        		}
+        		.for li a:hover{
+        			color: skyblue;
+        			background: none;
+        		}
+        	
+
+        	}
+            @media (max-width: 800px){
+                .two{
+                
+                max-height: 50px;
+                
+                }
+                .left{
+                height: 50px;
+                width: 28%;
+                float: left;
+                background: rgba(225, 225, 225, 0.6);
+                line-height: 50px;
+                padding: 0px 5px;
+            }
+            .right{
+                width: 57%;
+                float: right;
+                height: 20px;
+                background: rgba(225, 225, 225, 0.6);
+
+                }
+                .left .threen{
+                display: block;
+                text-decoration: none;
+                color: black;
+                font-size: 30px;
+                font-family: "MV Boli";
+                }
+                .for li a{
+                    display: none;
+
+                }
+             }       
+                .serv{
+                width: 75%;
+                height: 500px;
+             
+                margin:80px auto 0px;
+            }

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+       
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/cssreset.css">
+        <style>
+		
+        .one{
+        		position: relative;
+      			background: url('img/banner.jpg') no-repeat center top;
+      			background-size: 100%;
+      			min-height: 250px;
+      			padding: 30px 0px;
+      			box-sizing: border-box;
+        	}
+        	@media (max-width: 768px){
+        		.one{
+        			max-height: 150px;
+        		}
+        	}
+        	
+        	@media (min-width: 768px){
+        		.two{
+        		
+        		max-height: 120px;
+        		
+        		}
+        		.left{
+        		height: 120px;
+        		width: 28%;
+        		float: left;
+        		background: rgba(225, 225, 225, 0.6);
+				line-height: 120px;
+				padding: 0px 10px;
+        	}
+        	.right{
+        		width: 57%;
+				float: right;
+				height: 120px;
+				background: rgba(225, 225, 225, 0.6);
+				
+        		}
+        		.left .threen{
+				color: black;
+				font-size: 50px;
+				font-family: "MV Boli";
+				text-decoration: none;
+				
+        		}
+        		.for li a{
+        			line-height: 120px;
+        			font-size: 16px;
+        			
+					color:  black;
+        		}
+        		.for li a:hover{
+        			color: skyblue;
+        			background: none;
+        		}
+        		.car{
+				margin-top:  80px;
+				font-size: 200px;
+				font-family: "Dotum";
+				color: black;
+
+        		}
+
+        	}
+				
+        	@media (max-width: 800px){
+        		.two{
+        		
+        		max-height: 50px;
+        		
+        		}
+        		.left{
+        		height: 50px;
+        		width: 28%;
+        		float: left;
+        		background: rgba(225, 225, 225, 0.6);
+				line-height: 50px;
+				padding: 0px 5px;
+        	}
+        	.right{
+        		width: 57%;
+				float: right;
+				height: 20px;
+				background: rgba(225, 225, 225, 0.6);
+
+        		}
+        		.left .threen{
+        		display: block;
+        		text-decoration: none;
+				color: black;
+				font-size: 30px;
+				font-family: "MV Boli";
+        		}
+        		.for li a{
+        			display: none;
+
+        		}
+				
+
+        	}
+        	
+        	
+        	
+        	.bttn{
+        		border-radius: 0px;
+        		width: 100px;
+        		background: #6cb6b6;
+        		margin-bottom: 250px;
+                color: white;
+        	}
+        	.bttn:hover{
+        		background: black;
+        		border: none;
+        	}
+        	.foot{
+                    width: 100%;
+                    height: 200px;
+                    background: #6cb6b6;
+                    position: relative;
+                    bottom: 0px;
+                    padding-top: 50px;
+                }
+                .foot .footer{
+                    width: 60%;
+                    height: 100px;
+                    
+                }
+                .texts{
+                color: white;
+                font-size: 16px;
+                margin-top: 18px;
+            }
+            .ints{
+                text-decoration: none;
+                color: black;
+            }
+            .ints:hover{
+                color: white;
+            }
+            .foot .span1{
+                width: 29%;
+                
+                height: 50px;
+            }
+            .foot .span1 span{
+                display: inline-block;
+                width: 32%;
+                height: 50px;
+                
+            }
+            .foot .span1 .icons1,.icons2,.icons3{
+                background: url('img/img-sprite.png') no-repeat;
+            }
+            .foot .span1 .icons1{
+                background-position: -8px -152px;
+            }
+            .foot .span1 .icons2{
+                display: inline-block;
+                width: 34px;
+                height: 50px;
+                background-position: -94px -147px;
+            }
+            .foot .span1 .icons3{
+                background-position: -121px -152px;
+            }
+            .right .for{
+                margin-left: 60px;
+                
+            }
+            .right .for li{
+                  margin-right: 20px;
+            }
+        </style>
+    </head>
+    <body>
+    	<div class="one">
+    		<p class="left"><a href="home.html" class=" threen pull-right">Trendz</a></p>
+                <div class="right">
+                
+                    <ul class="nav  nav-pills  for">
+                      <li ><a href="home.html">HOME</a></li>
+                      <li ><a href="about.html">ABOUT</a></li>
+                      <li ><a href="seversives.html">SERVICES</a></li>
+                      <li ><a href="index.html">BLOG</a></li>
+                      <li ><a href="contact.html">CONTACT</a></li>
+                    </ul>               
+                </div>
+    		
+    		
+    	</div>
+    	<h2 class="text-center car">404</h2>
+    	<button class="btn  center-block btn-lg bttn ">Back</button>
+		<div class="foot">
+            <div class="footer center-block">
+                <p class="span1 center-block">
+                    <span class="icons1"></span>
+                    <span class="icons2"></span>
+                    <span class="icons3"></span>
+                </p>
+                <p class=" text-center texts">Copyright © 2015.Company name All rights reserved. <ins class="ints">时尚芭莎</ins> - More Templates <ins class="ints">时尚T台秀</ins> </p>
+            </div>
+        </div>
+    	<script src="js/jquery-1.11.1.min.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,273 @@
+            .one{
+        		position: relative;
+      			background: url('../img/banner.jpg') no-repeat center top;
+      			background-size: 100%;
+      			min-height: 250px;
+      			padding: 30px 0px;
+      			box-sizing: border-box;
+        	}
+        	@media (max-width: 768px){
+        		.one{
+        			max-height: 150px;
+        		}
+        	}
+        	
+        	@media (min-width: 768px){
+        		.two{
+        		
+        		max-height: 120px;
+        		
+        		}
+        		.left{
+        		height: 120px;
+        		width: 28%;
+        		float: left;
+        		background: rgba(225, 225, 225, 0.6);
+				line-height: 120px;
+				padding: 0px 10px;
+        	}
+        	.right{
+        		width: 57%;
+				float: right;
+				height: 120px;
+				background: rgba(225, 225, 225, 0.6);
+				
+        		}
+        		.left .threen{
+				color: black;
+				font-size: 50px;
+				font-family: "MV Boli";
+				text-decoration: none;
+				
+        		}
+        		.for li a{
+        			line-height: 120px;
+        			font-size: 16px;
+        			
+					color:  black;
+        		}
+        		.for li a:hover{
+        			color: skyblue;
+        			background: none;
+        		}
+        	
+
+        	}
+            @media (max-width: 800px){
+                .two{
+                
+                max-height: 50px;
+                
+                }
+                .left{
+                height: 50px;
+                width: 28%;
+                float: left;
+                background: rgba(225, 225, 225, 0.6);
+                line-height: 50px;
+                padding: 0px 5px;
+            }
+            .right{
+                width: 57%;
+                float: right;
+                height: 20px;
+                background: rgba(225, 225, 225, 0.6);
+
+                }
+                .left .threen{
+                display: block;
+                text-decoration: none;
+                color: black;
+                font-size: 30px;
+                font-family: "MV Boli";
+                }
+                .for li a{
+                    display: none;
+
+                }
+             }       
+                .serv{
+                width: 75%;
+                height: 500px;
+             
+                margin:80px auto 0px;
+            }
+            .serv .servlu{
+                width: 100%;
+                height: 259px;
+              
+                margin-top: 30px;
+            }
+            .serv .servlu li{
+                width: 30%;
+                height: 259px;
+            
+                float: left;
+                margin-right: 3%;
+            }
+            .serv .servlu li img{
+                width: 100%;
+
+                transition: all 2s;
+            }
+            .serv .servlu li img:hover{
+                transform:scale(1.03);
+                overflow: hidden;
+            }
+            .serv .servp{
+                width: 100%;
+                height: 100px;
+           
+                margin-top: 5px;
+            }
+            .serv .servp div{
+                width: 30%;
+                height:100px;
+                margin-top: 10px;
+                float: left;
+
+                margin-right: 3%;
+                border-bottom: 3px solid #cccccc;
+            }
+            .serv .servp div:hover{
+                border-color: skyblue;
+            }
+            .serv .servp div .serspan{
+                color: skyblue;
+                font-size: 30px;
+            }
+             .serv .servp div p{
+                
+                width: 80%;
+                height: 100px;
+            
+
+             }
+            .serv .servp div p .rspan{
+                font-size: 20px;
+                color: skyblue;
+             }
+             .serv .servp div p .rspan:hover{
+                color: black;
+             }
+             .serv .servp div p .rspanbom{
+                line-height: 24px;
+                font-size: 15px;
+             }
+            
+           .bgsggle{
+            height: 300px;
+            background: #eeeeee;
+            margin-top: 50px;
+            padding: 50px 0px;
+           }
+           .bgsggle .conter{
+            width: 75%;
+            height: 200px;
+           }
+           .bgsggle .conter .lefts{
+            line-height: 100px;
+            height: 100px;
+            font-size: 40px;
+            margin: 40px 0px;
+            width: 36%;
+            border-right: 2px solid skyblue;
+           }
+            .bgsggle .conter .rights{
+            width: 60%;
+            height: 120px;
+            margin: 40px 0px;
+            }
+            .bgsggle .conter .rights p{
+                color: #999999;
+            }
+            .bgsggle .conter .rights .amore:hover{
+                color: black;
+            }
+            .bgsggle .conter .rights .amore{
+                font-size: 18px;
+                text-decoration: none;
+                color: skyblue;
+            }
+            .whit{
+                width: 75%;
+                height: 270px;
+               
+                margin: 60px auto;
+            }
+            .whit .tong{
+                height: 200px;
+               
+                margin-top: 20px;
+            }
+            .whit .tong div{
+                width: 30%;
+                height: 200px;
+                
+                margin-right: 3%;
+                float: left;
+            }
+            .whit .tong div .gurd{
+                line-height: 24px;
+                color: #999999;
+            }
+             .whit .tong div a{
+                font-size: 18px;
+                color: skyblue;
+                text-decoration: none;
+            }
+             .whit .tong div a:hover{
+                color: black;
+            }
+            .foot{
+                    width: 100%;
+                    height: 200px;
+                    background: #6cb6b6;
+                    position: relative;
+                    bottom: 0px;
+                    padding-top: 50px;
+                }
+                .foot .footer{
+                    width: 60%;
+                    height: 100px;
+                    
+                }
+                .texts{
+                color: white;
+                font-size: 16px;
+                margin-top: 18px;
+            }
+            .ints{
+                text-decoration: none;
+                color: black;
+            }
+            .ints:hover{
+                color: white;
+            }
+            .foot .span1{
+                width: 29%;
+                
+                height: 50px;
+            }
+            .foot .span1 span{
+                display: inline-block;
+                width: 32%;
+                height: 50px;
+                
+            }
+            .foot .span1 .icons1,.icons2,.icons3,.licon1,.licon2,.licon3,.licon4{
+                background: url('../img/img-sprite.png') no-repeat;
+            }
+            .foot .span1 .icons1{
+                background-position: -8px -152px;
+            }
+            .foot .span1 .icons2{
+                display: inline-block;
+                width: 34px;
+                height: 50px;
+                background-position: -94px -147px;
+            }
+            .foot .span1 .icons3{
+                background-position: -121px -152px;
+            }
+             
